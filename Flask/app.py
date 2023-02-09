@@ -10,7 +10,7 @@ model = pickle.load(open("model.pkl", "rb"))
 def home():
     return render_template("index.html")
 
-@flask_app.route("/predSSict", methods = ["POST"])
+@flask_app.route("/predict", methods = ["POST"])
 def predict():
     float_features = [float(x) for x in request.form.values()]
     features = [np.array(float_features)]
