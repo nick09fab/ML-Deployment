@@ -1,7 +1,7 @@
-pandas 
-numpy
+pandas==1.3.5
+ numpy==1.22.4
 seaborn
 matplotlib
 imblearn
-nltk
-scikit-learn
+nltk==3.8.1
+scikit-learn==1.0.2
